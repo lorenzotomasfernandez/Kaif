@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Nomada Didone Extrablack';
+    src: url('NomadaDidone-ExtrablackItalic.eot');
+    src: local('Nomada Didone Extrablack Italic'), local('NomadaDidone-ExtrablackItalic'),
+        url('NomadaDidone-ExtrablackItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-ExtrablackItalic.woff2') format('woff2'),
+        url('NomadaDidone-ExtrablackItalic.woff') format('woff'),
+        url('NomadaDidone-ExtrablackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone Extrablack';
+    src: url('NomadaDidone-Extrablack.eot');
+    src: local('Nomada Didone Extrablack'), local('NomadaDidone-Extrablack'),
+        url('NomadaDidone-Extrablack.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Extrablack.woff2') format('woff2'),
+        url('NomadaDidone-Extrablack.woff') format('woff'),
+        url('NomadaDidone-Extrablack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-Bold.eot');
+    src: local('Nomada Didone Bold'), local('NomadaDidone-Bold'),
+        url('NomadaDidone-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Bold.woff2') format('woff2'),
+        url('NomadaDidone-Bold.woff') format('woff'),
+        url('NomadaDidone-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-Black.eot');
+    src: local('Nomada Didone Black'), local('NomadaDidone-Black'),
+        url('NomadaDidone-Black.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Black.woff2') format('woff2'),
+        url('NomadaDidone-Black.woff') format('woff'),
+        url('NomadaDidone-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone Extrathin';
+    src: url('NomadaDidone-ExtrathinItalic.eot');
+    src: local('Nomada Didone Extrathin Italic'), local('NomadaDidone-ExtrathinItalic'),
+        url('NomadaDidone-ExtrathinItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-ExtrathinItalic.woff2') format('woff2'),
+        url('NomadaDidone-ExtrathinItalic.woff') format('woff'),
+        url('NomadaDidone-ExtrathinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-BoldItalic.eot');
+    src: local('Nomada Didone Bold Italic'), local('NomadaDidone-BoldItalic'),
+        url('NomadaDidone-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-BoldItalic.woff2') format('woff2'),
+        url('NomadaDidone-BoldItalic.woff') format('woff'),
+        url('NomadaDidone-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-BlackItalic.eot');
+    src: local('Nomada Didone Black Italic'), local('NomadaDidone-BlackItalic'),
+        url('NomadaDidone-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-BlackItalic.woff2') format('woff2'),
+        url('NomadaDidone-BlackItalic.woff') format('woff'),
+        url('NomadaDidone-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-Regular.eot');
+    src: local('Nomada Didone'), local('NomadaDidone-Regular'),
+        url('NomadaDidone-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Regular.woff2') format('woff2'),
+        url('NomadaDidone-Regular.woff') format('woff'),
+        url('NomadaDidone-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-Thin.eot');
+    src: local('Nomada Didone Thin'), local('NomadaDidone-Thin'),
+        url('NomadaDidone-Thin.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Thin.woff2') format('woff2'),
+        url('NomadaDidone-Thin.woff') format('woff'),
+        url('NomadaDidone-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-ThinItalic.eot');
+    src: local('Nomada Didone Thin Italic'), local('NomadaDidone-ThinItalic'),
+        url('NomadaDidone-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-ThinItalic.woff2') format('woff2'),
+        url('NomadaDidone-ThinItalic.woff') format('woff'),
+        url('NomadaDidone-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-Light.eot');
+    src: local('Nomada Didone Light'), local('NomadaDidone-Light'),
+        url('NomadaDidone-Light.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Light.woff2') format('woff2'),
+        url('NomadaDidone-Light.woff') format('woff'),
+        url('NomadaDidone-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-MediumItalic.eot');
+    src: local('Nomada Didone Medium Italic'), local('NomadaDidone-MediumItalic'),
+        url('NomadaDidone-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-MediumItalic.woff2') format('woff2'),
+        url('NomadaDidone-MediumItalic.woff') format('woff'),
+        url('NomadaDidone-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone Hairline';
+    src: url('NomadaDidone-HairlineItalic.eot');
+    src: local('Nomada Didone Hairline Italic'), local('NomadaDidone-HairlineItalic'),
+        url('NomadaDidone-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-HairlineItalic.woff2') format('woff2'),
+        url('NomadaDidone-HairlineItalic.woff') format('woff'),
+        url('NomadaDidone-HairlineItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-LightItalic.eot');
+    src: local('Nomada Didone Light Italic'), local('NomadaDidone-LightItalic'),
+        url('NomadaDidone-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-LightItalic.woff2') format('woff2'),
+        url('NomadaDidone-LightItalic.woff') format('woff'),
+        url('NomadaDidone-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone Hairline';
+    src: url('NomadaDidone-Hairline.eot');
+    src: local('Nomada Didone Hairline'), local('NomadaDidone-Hairline'),
+        url('NomadaDidone-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Hairline.woff2') format('woff2'),
+        url('NomadaDidone-Hairline.woff') format('woff'),
+        url('NomadaDidone-Hairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone Extrathin';
+    src: url('NomadaDidone-Extrathin.eot');
+    src: local('Nomada Didone Extrathin'), local('NomadaDidone-Extrathin'),
+        url('NomadaDidone-Extrathin.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Extrathin.woff2') format('woff2'),
+        url('NomadaDidone-Extrathin.woff') format('woff'),
+        url('NomadaDidone-Extrathin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-RegularItalic.eot');
+    src: local('Nomada Didone Italic'), local('NomadaDidone-RegularItalic'),
+        url('NomadaDidone-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-RegularItalic.woff2') format('woff2'),
+        url('NomadaDidone-RegularItalic.woff') format('woff'),
+        url('NomadaDidone-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nomada Didone';
+    src: url('NomadaDidone-Medium.eot');
+    src: local('Nomada Didone Medium'), local('NomadaDidone-Medium'),
+        url('NomadaDidone-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NomadaDidone-Medium.woff2') format('woff2'),
+        url('NomadaDidone-Medium.woff') format('woff'),
+        url('NomadaDidone-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

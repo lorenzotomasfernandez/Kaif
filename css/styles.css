@@ -1,0 +1,306 @@
+@font-face {
+    font-family: fuente-personalizada;
+    src: url(../fonts/NomadaDidone-Medium.woff);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: fuente-personalizada;
+}
+
+header{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-link{
+    padding: 10px;
+    margin: 10px;
+}
+
+header nav div a img{
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.banner{
+    width: 100%;
+}
+.contenido {
+    position: absolute;
+    top: 50%;
+    right: 10%; 
+    transform: translateY(-50%);
+    text-align: left;
+    padding: 20px;
+}
+
+header .nav-link:hover{
+    color: #000;
+}
+
+.contenido h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.contenido p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.contenido a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.boton-reservar{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 212px;
+    padding: 8px 16px;
+}
+
+.boton-reservar:hover{
+    background-color: mediumvioletred;
+}
+
+.contenedor-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+    font-size: 1rem;
+    height: 100vh;
+    justify-content: center;
+}
+
+.cards-alineacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 30px;
+    height: 398px;
+    width: 371px;
+
+}
+
+.contenedor-cards h2{
+    color: #ffffff;
+    margin: 30px;
+    font-weight: bold;
+}
+
+section .card-body a{
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+section .card-body a:hover{
+    background-color: mediumvioletred;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 1rem;
+    height: 100vh;
+}
+
+.servicios h2{
+    margin: 30px;
+    font-weight: bold;
+}
+
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-imagenes-servicios{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.contenedor-imagenes-servicios h5{
+    text-align: center;
+    margin: 20px;
+    font-size: 1rem;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 1rem;
+    background-color: black;
+    color: #ffffff;
+    height: 150vh;
+}
+
+.galeria h2{
+    margin: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-galeria img{
+    margin: 30px;
+}
+
+.galeria p{
+    margin: 30px;
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-size: 1rem;
+    height: 100vh;
+    justify-content: center;
+}
+
+.formulario h2{
+    margin: 30px;
+    padding-bottom: 30px;
+
+    font-weight: bold;
+}
+
+main section div form div{
+    margin: 20px;
+}
+
+.formulario-mapa-contenedor{
+    display: flex;
+}
+
+iframe{
+    width: 100%;
+}
+
+.boton-enviar{
+    background-color: #000;
+    border-radius: 5px;
+    width: 212px;
+    padding: 8px 16px;
+}
+
+.boton-enviar:hover{
+    background-color: mediumvioletred;
+}
+
+footer{
+    background-color:#000;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    
+}
+
+footer .boton-suscribirse{
+    border-radius: 5px;
+    width: 212px;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    color: #000;
+    margin-top: 20px ;
+}
+
+.boton-suscribirse:hover{
+    background-color: mediumvioletred;
+}
+
+#newsletter{
+    margin-top: 10px;
+}
+
+.redes-sociales{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.menu-titulo{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos{
+    display: flex;
+}
+
+.iconos img{
+    width: 70px;
+    height: 70px;
+}
+
+.form-newsletter{
+    width: 447px;
+}
+
+.margen-interno{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#whatsapp-button img {
+    width: 130px;
+}
+
+body {
+    padding-top: 90px; 
+}
+
+main {
+    padding-top: 100px;
+}
+
+.form-label{
+    font-weight: bold;
+}
