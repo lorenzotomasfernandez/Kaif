@@ -3,23 +3,23 @@
     src: url(../fonts/NomadaDidone-Medium.woff);
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: fuente-personalizada;
 }
 
-header{
+header {
     font-weight: bold;
     font-size: 1rem;
 }
 
-.nav-link{
+.nav-link {
     padding: 10px;
     margin: 10px;
 }
 
-header nav div a img{
+header nav div a img {
     width: 100px;
     height: 100px;
 }
@@ -28,19 +28,20 @@ header nav div a img{
     position: relative;
 }
 
-.banner{
+.banner {
     width: 100%;
 }
+
 .contenido {
     position: absolute;
     top: 50%;
-    right: 10%; 
+    right: 10%;
     transform: translateY(-50%);
     text-align: left;
     padding: 20px;
 }
 
-header .nav-link:hover{
+header .nav-link:hover {
     color: #000;
 }
 
@@ -61,7 +62,7 @@ header .nav-link:hover{
     text-decoration: none;
 }
 
-.boton-reservar{
+.boton-reservar {
     background-color: black;
     color: #ffffff;
     border-radius: 5px;
@@ -69,7 +70,7 @@ header .nav-link:hover{
     padding: 8px 16px;
 }
 
-.boton-reservar:hover{
+.boton-reservar:hover {
     background-color: mediumvioletred;
 }
 
@@ -80,7 +81,6 @@ header .nav-link:hover{
     background-color: black;
     padding: 50px;
     font-size: 1rem;
-    height: 100vh;
     justify-content: center;
 }
 
@@ -90,63 +90,58 @@ header .nav-link:hover{
     justify-content: center;
 }
 
-.card{
+.card {
     margin: 30px;
-    height: 398px;
-    width: 371px;
-
 }
 
-.contenedor-cards h2{
+.contenedor-cards h2 {
     color: #ffffff;
     margin: 30px;
     font-weight: bold;
 }
 
-section .card-body a{
+section .card-body a {
     border-radius: 4px;
     border: 1px solid #000;
     background-color: #000;
 }
 
-section .card-body a:hover{
+section .card-body a:hover {
     background-color: mediumvioletred;
 }
 
-.servicios{
+.servicios {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 50px;
     font-size: 1rem;
-    height: 100vh;
 }
 
-.servicios h2{
+.servicios h2 {
     margin: 30px;
     font-weight: bold;
 }
 
-.contenedor-servicios{
+.contenedor-servicios {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.contenedor-imagenes-servicios{
+.contenedor-imagenes-servicios {
     display: flex;
     flex-direction: column;
-    margin: 30px;
 }
 
-.contenedor-imagenes-servicios h5{
+.contenedor-imagenes-servicios h5 {
     text-align: center;
     margin: 20px;
     font-size: 1rem;
 }
 
-.galeria{
+.galeria {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,128 +150,123 @@ section .card-body a:hover{
     font-size: 1rem;
     background-color: black;
     color: #ffffff;
-    height: 150vh;
 }
 
-.galeria h2{
+.galeria h2 {
     margin: 30px;
     padding-bottom: 30px;
     font-weight: bold;
 }
 
-.contenedor-galeria{
+.contenedor-galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.contenedor-galeria img{
+.contenedor-galeria img {
     margin: 30px;
 }
 
-.galeria p{
+.galeria p {
     margin: 30px;
     padding-top: 60px;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px;
     font-size: 1rem;
-    height: 100vh;
     justify-content: center;
 }
 
-.formulario h2{
+.formulario h2 {
     margin: 30px;
     padding-bottom: 30px;
-
     font-weight: bold;
 }
 
-main section div form div{
+main section div form div {
     margin: 20px;
 }
 
-.formulario-mapa-contenedor{
+.formulario-mapa-contenedor {
     display: flex;
 }
 
-iframe{
+iframe {
     width: 100%;
 }
 
-.boton-enviar{
+.boton-enviar {
     background-color: #000;
     border-radius: 5px;
     width: 212px;
     padding: 8px 16px;
 }
 
-.boton-enviar:hover{
+.boton-enviar:hover {
     background-color: mediumvioletred;
 }
 
-footer{
-    background-color:#000;
+footer {
+    background-color: #000;
     color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     padding: 60px;
-    
 }
 
-footer .boton-suscribirse{
+footer .boton-suscribirse {
     border-radius: 5px;
-    width: 212px;
+    width: 100%;
     padding: 8px 16px;
     background-color: #ffffff;
     color: #000;
-    margin-top: 20px ;
+    margin-top: 20px;
 }
 
-.boton-suscribirse:hover{
+.boton-suscribirse:hover {
     background-color: mediumvioletred;
 }
 
-#newsletter{
+#newsletter {
     margin-top: 10px;
 }
 
-.redes-sociales{
-    font-size: 1rem;
-    font-weight: bold;
-
-}
-
-.menu-titulo{
+.redes-sociales {
     font-size: 1rem;
     font-weight: bold;
 }
 
-.menu-footer{
+.menu-titulo {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.menu-footer {
     display: flex;
     flex-direction: column;
 }
 
-.iconos{
+.iconos {
     display: flex;
 }
 
-.iconos img{
+.iconos img {
     width: 70px;
     height: 70px;
 }
 
-.form-newsletter{
-    width: 447px;
+.form-newsletter {
+    width: 100%;
 }
 
-.margen-interno{
+.margen-interno {
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 50px;
@@ -290,17 +280,24 @@ footer .boton-suscribirse{
 }
 
 #whatsapp-button img {
-    width: 130px;
+    width: 80px;
 }
 
 body {
-    padding-top: 90px; 
+    padding-top: 90px;
 }
 
 main {
     padding-top: 100px;
 }
 
-.form-label{
+.form-label {
     font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    iframe,
+    .contenido {
+        display: none;
+    }
 }
