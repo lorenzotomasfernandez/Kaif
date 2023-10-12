@@ -295,9 +295,21 @@ main {
     font-weight: bold;
 }
 
+.card img{
+    width: 400px;
+}
+
+.modal-boton{
+    background-color: #000;
+}
+
 @media (max-width: 992px) {
     iframe,
     .contenido {
         display: none;
+    }
+
+    .card img{
+        width: 250px;
     }
 }
